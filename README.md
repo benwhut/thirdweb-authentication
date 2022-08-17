@@ -17,7 +17,7 @@ Next, you need to create a `.env.local` file and add the `ADMIN_PRIVATE_KEY` var
 
 ```.env
 ADMIN_PRIVATE_KEY=111222333xxxyyyzzz
-NEXT_PUBLIC_DOMAIN_NAME=domain_name
+NEXT_PUBLIC_DOMAIN_NAME=example.com
 ```
 
 Finally, you can run the project with one of the following commands:
