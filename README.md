@@ -13,12 +13,13 @@ npm install
 yarn install
 ```
 
-Next, you need to create a `.env.local` file and add the `ADMIN_PRIVATE_KEY` variable to it with the private key of the wallet you want to use as the admin wallet to generate and verify payloads. Also add in `NEXT_PUBLIC_DOMAIN_NAME`. Your file should use something like the following:
+Next, you need to create a `.env.local` file and add the `ADMIN_PRIVATE_KEY` variable to it with the private key of the wallet you want to use as the admin wallet to generate and verify payloads. The private key can be accessed from your Metamask wallet under `Account Details` -> `Export Private Key`, for example. This Private Key is highly sensitive so do not share it anywhere else! Also add in `NEXT_PUBLIC_DOMAIN_NAME`. Your file should use something like the following:
 
 ```.env
 ADMIN_PRIVATE_KEY=111222333xxxyyyzzz
 NEXT_PUBLIC_DOMAIN_NAME=example.com
 ```
+A sample file called `env.local-example` is included. Rename it to `.env.local` and change the values accordingly.
 
 Finally, you can run the project with one of the following commands:
 
