@@ -21,7 +21,7 @@ Your file should use something like the following:
 ADMIN_PRIVATE_KEY=111222333xxxyyyzzz
 NEXT_PUBLIC_DOMAIN_NAME=example.com
 ```
-A sample file called `env.local-example` is included. Rename it to `.env.local` and change the values accordingly.
+A sample `.env.local` file is included. Change the values accordingly.
 
 Finally, run the project with one of the following commands:
 
