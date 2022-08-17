@@ -13,10 +13,10 @@ npm install
 yarn install
 ```
 
-Next, you need to create a `.env.local` file and add the `ADMIN_PRIVATE_KEY` variable to it with the private key of the wallet you want to use as the admin wallet to generate and verify payloads. Your file should use something like the following:
+Next, you need to create a `.env.local` file and add the `ADMIN_PRIVATE_KEY` variable to it with the private key of the wallet you want to use as the admin wallet to generate and verify payloads. Also add in `NEXT_PUBLIC_DOMAIN_NAME`. Your file should use something like the following:
 
 ```.env
-ADMIN_PRIVATE_KEY=xxxyyyzzz
+ADMIN_PRIVATE_KEY=111222333xxxyyyzzz
 NEXT_PUBLIC_DOMAIN_NAME=domain_name
 ```
 
