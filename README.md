@@ -1,6 +1,8 @@
 # thirdweb-authentication
 Web3 Client and Server authentication on NextJS using Thirdweb's Authentication SDK
 
+https://portal.thirdweb.com/auth
+
 Here we implement the login with wallet flow using the [Next.js](https://nextjs.org/) framework.
 
 ## Setup
